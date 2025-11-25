@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Универсальное приложение</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+
+    <!-- Кнопки -->
+    <item>
+     <layout class="QHBoxLayout" name="buttonsLayout">
+
+      <item>
+       <widget class="QPushButton" name="btnAdd">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="btnEdit">
+        <property name="text">
+         <string>Изменить</string>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="btnDelete">
+        <property name="text">
+         <string>Удалить</string>
+        </property>
+       </widget>
+      </item>
+
+      <item>
+       <widget class="QPushButton" name="btnRefresh">
+        <property name="text">
+         <string>Обновить</string>
+        </property>
+       </widget>
+      </item>
+
+     </layout>
+    </item>
+
+    <!-- Таблица -->
+    <item>
+     <widget class="QTableWidget" name="tableData"/>
+    </item>
+
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
